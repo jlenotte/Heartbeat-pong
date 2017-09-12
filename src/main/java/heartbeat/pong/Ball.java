@@ -6,69 +6,69 @@ import java.awt.Rectangle;
 
 public class Ball extends GameObject {
 
-    private Handler handler;
+  private Handler handler;
 
-    public Ball(int x, int y, ID id, Handler handler) {
+  public Ball(int x, int y, ID id, Handler handler) {
 
-        super(x, y, id);
+    super(x, y, id);
 
-        this.handler = handler;
+    this.handler = handler;
 
-        spdX = 1;
-        spdY = 1;
+    spdX = 1;
+    spdY = 1;
 
 
+  }
+
+  public Rectangle getBounds() {
+
+    return new Rectangle((int) x, (int) y, 18, 18);
+
+  }
+
+
+  /**
+   * Makes the ball rebound when hitting the borders
+   */
+  public void tick() {
+
+    y += spdY;
+    x += spdX;
+
+    if (y <= 0 || y >= Game.HEIGHT - 9) {
+      spdY *= -1;
     }
 
-    public Rectangle getBounds() {
-
-        return new Rectangle(x, y, 18, 18);
-
+    if (x <= 0 || x >= Game.WIDTH - 9) {
+      spdX *= -1;
     }
 
+    collision();
 
-    /**
-     * Makes the ball rebound when hitting the borders
-     */
-    public void tick() {
+  }
 
-        y += spdY;
-        x += spdX;
+  public void collision() {
+    for (int i = 0; i < handler.object.size(); i++) {
+      GameObject tempObject = handler.object.get(i);
 
-        if (y <= 0 || y >= Game.HEIGHT - 9) {
-            spdY *= -1;
+      if (tempObject.getId() == ID.Player || tempObject.getId() == ID.Enemy) {
+        if (getBounds().intersects(tempObject.getBounds())) {
+          spdX *= -1;
         }
-
-        if (x <= 0 || x >= Game.WIDTH - 9) {
-            spdX *= -1;
-        }
-
-        collision();
+      }
 
     }
 
-    public void collision() {
-        for (int i = 0; i < handler.object.size(); i++) {
-            GameObject tempObject = handler.object.get(i);
+    handler
+        .addObject(new Trail((int) x, (int) y, ID.Trail, Color.WHITE, 18, 18, 0.009f, handler));
+  }
 
-            if (tempObject.getId() == ID.Player || tempObject.getId() == ID.Enemy) {
-                if (getBounds().intersects(tempObject.getBounds())) {
-                    spdX *= -1;
-                }
-            }
+  public void render(Graphics graphics) {
 
-        }
+    graphics.setColor(Color.WHITE);
+    graphics.fillRect((int) x, (int) y, 18, 18);
 
-        handler
-            .addObject(new Trail((int) x, (int) y, ID.Trail, Color.WHITE, 18, 18, 0.009f, handler));
-    }
-
-    public void render(Graphics graphics) {
-
-        graphics.setColor(Color.WHITE);
-        graphics.fillRect((int) x, (int) y, 18, 18);
-
-    }
+  }
 
 
 }

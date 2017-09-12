@@ -9,63 +9,50 @@ import java.awt.*;
 
 public class HUD {
 
-    public static int HEALTH = 100;
-    private int level = 1;
-    private int score = 0;
+  private int level = 1;
+  private int score = 0;
 
-    public void tick() {
+  public void tick() {
 
-        HEALTH = (int) Game.playerCollision(HEALTH, 0, 100);
+    score++;
 
-        score++;
+  }
 
-        if (HEALTH == 0) {
+  public void render(Graphics graphics) {
 
-        }
+    graphics.fillRect(800, 0, 5, 900);
+    graphics.drawString("PLAYER", 400, 20);
+    graphics.drawString("ENEMY", 1200, 20);
+    graphics.drawString("Level : " + level, 20, 50);
+    graphics.drawString("Score : " + score, 20, 80);
 
-    }
+  }
 
-    public void render(Graphics graphics) {
+  public void score(int score) {
+    this.score = score;
+  }
 
-//        graphics.setColor(Color.RED);
-//        graphics.fillRect(15,15, 300, 15);
-        graphics.setColor(Color.GREEN);
-        graphics.fillRect(15, 15, HEALTH * 3, 15);
-        graphics.setColor(Color.WHITE);
-        graphics.drawRect(15, 15, 300, 15);
-        graphics.setColor(Color.WHITE);
-        graphics.fillRect(800, 0, 5, 900);
+  public int getLevel() {
 
-        graphics.drawString("Level : " + level, 20, 50);
-        graphics.drawString("Score : " + score, 20, 80);
+    return level;
 
-    }
+  }
 
-    public void score(int score) {
-        this.score = score;
-    }
+  public void setLevel(int level) {
 
-    public int getLevel() {
+    this.level = level;
 
-        return level;
+  }
 
-    }
+  public int getScore() {
 
-    public void setLevel(int level) {
+    return score;
 
-        this.level = level;
+  }
 
-    }
+  public void setScore(int score) {
 
-    public int getScore() {
+    this.score = score;
 
-        return score;
-
-    }
-
-    public void setScore(int score) {
-
-        this.score = score;
-
-    }
+  }
 }

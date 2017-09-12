@@ -11,59 +11,59 @@ import java.util.LinkedList;
 
 public class Handler {
 
-    LinkedList<GameObject> object = new LinkedList<GameObject>();
+  LinkedList<GameObject> object = new LinkedList<GameObject>();
 
-    public void tick() {
+  public void tick() {
 
-        for (int i = 0; i < object.size(); i++) {
+    for (int i = 0; i < object.size(); i++) {
 
-            GameObject tempObject = object.get(i);
-            tempObject.tick();
-
-        }
+      GameObject tempObject = object.get(i);
+      tempObject.tick();
 
     }
 
-    public void render(Graphics graphics) {
+  }
 
-        for (int i = 0; i < object.size(); i++) {
+  public void render(Graphics graphics) {
 
-            GameObject tempObject = object.get(i);
-            tempObject.render(graphics);
+    for (int i = 0; i < object.size(); i++) {
 
-        }
-
-    }
-
-    public void addObject(GameObject object) {
-
-        this.object.add(object);
+      GameObject tempObject = object.get(i);
+      tempObject.render(graphics);
 
     }
 
-    public void removeObject(GameObject object) {
+  }
 
-        this.object.remove(object);
+  public void addObject(GameObject object) {
+
+    this.object.add(object);
+
+  }
+
+  public void removeObject(GameObject object) {
+
+    this.object.remove(object);
+
+  }
+
+  public void clearEnemies() {
+
+    for (int i = 0; i < object.size(); i++) {
+
+      GameObject tempObject = object.get(i);
+      if (tempObject.getId() == ID.Player) {
+
+        object.clear();
+
+      }
+
+      addObject(
+          new Player((int) tempObject.getX(), (int) tempObject.getY(), ID.Player, this));
+      addObject(
+          new Player((int) tempObject.getX(), (int) tempObject.getY(), ID.Player, this));
 
     }
 
-    public void clearEnemies() {
-
-        for (int i = 0; i < object.size(); i++) {
-
-            GameObject tempObject = object.get(i);
-            if (tempObject.getId() == ID.Player) {
-
-                object.clear();
-
-            }
-
-            addObject(
-                new Player((int) tempObject.getX(), (int) tempObject.getY(), ID.Player, this));
-            addObject(
-                new Player((int) tempObject.getX(), (int) tempObject.getY(), ID.Player, this));
-
-        }
-
-    }
+  }
 }

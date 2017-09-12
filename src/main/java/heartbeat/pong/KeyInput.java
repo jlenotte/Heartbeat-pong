@@ -8,69 +8,69 @@ import java.awt.event.KeyEvent;
  */
 public class KeyInput extends KeyAdapter {
 
-    private Handler handler;
-    private boolean[] keyDown = new boolean[4];
+  private Handler handler;
+  private boolean[] keyDown = new boolean[4];
 
-    public KeyInput(Handler handler) {
+  public KeyInput(Handler handler) {
 
-        this.handler = handler;
+    this.handler = handler;
+
+  }
+
+  public void keyPressed(KeyEvent keyEvent) {
+
+    int key = keyEvent.getKeyCode();
+
+    for (int i = 0; i < handler.object.size(); i++) {
+
+      GameObject tempObject = handler.object.get(i);
+
+      if (tempObject.getId() == ID.Player) {
+
+        if (key == KeyEvent.VK_Z) {
+          tempObject.setSpdY(-1);
+          keyDown[0] = true;
+        }
+        if (key == KeyEvent.VK_S) {
+          tempObject.setSpdY(1);
+          keyDown[1] = true;
+        }
+
+      }
 
     }
 
-    public void keyPressed(KeyEvent keyEvent) {
+  }
 
-        int key = keyEvent.getKeyCode();
+  public void keyReleased(KeyEvent keyEvent) {
 
-        for (int i = 0; i < handler.object.size(); i++) {
+    int key = keyEvent.getKeyCode();
 
-            GameObject tempObject = handler.object.get(i);
+    for (int i = 0; i < handler.object.size(); i++) {
 
-            if (tempObject.getId() == ID.Player) {
+      GameObject tempObject = handler.object.get(i);
 
-                if (key == KeyEvent.VK_Z) {
-                    tempObject.setSpdY(-1);
-                    keyDown[0] = true;
-                }
-                if (key == KeyEvent.VK_S) {
-                    tempObject.setSpdY(1);
-                    keyDown[1] = true;
-                }
+      if (tempObject.getId() == ID.Player) {
 
-            }
-
+        if (key == KeyEvent.VK_Z) {
+          keyDown[0] = false;
         }
+        if (key == KeyEvent.VK_S) {
+          keyDown[1] = false;
+        }
+
+        //vertical movement
+        if (!keyDown[0] && !keyDown[1]) {
+          tempObject.setSpdY(0);
+        }
+
+      }
 
     }
 
-    public void keyReleased(KeyEvent keyEvent) {
-
-        int key = keyEvent.getKeyCode();
-
-        for (int i = 0; i < handler.object.size(); i++) {
-
-            GameObject tempObject = handler.object.get(i);
-
-            if (tempObject.getId() == ID.Player) {
-
-                if (key == KeyEvent.VK_Z) {
-                    keyDown[0] = false;
-                }
-                if (key == KeyEvent.VK_S) {
-                    keyDown[1] = false;
-                }
-
-                //vertical movement
-                if (!keyDown[0] && !keyDown[1]) {
-                    tempObject.setSpdY(0);
-                }
-
-            }
-
-        }
-
-        if (key == KeyEvent.VK_ESCAPE) {
-            System.exit(1);
-        }
-
+    if (key == KeyEvent.VK_ESCAPE) {
+      System.exit(1);
     }
+
+  }
 }

@@ -8,33 +8,28 @@ import java.util.Random;
 
 public class Spawn {
 
-    private Handler handler;
-    private HUD hud;
-    private Random rndm = new Random();
-    private int scoreCount = 0;
+  private Handler handler;
+  private HUD hud;
+  private Random rndm = new Random();
+  private GameObject ball;
+  private int scoreCount = 0;
 
-    public Spawn(Handler handler, HUD hud) {
+  public Spawn(Handler handler, HUD hud) {
 
-        this.handler = handler;
-        this.hud = hud;
+    this.handler = handler;
+    this.hud = hud;
 
+  }
+
+  public void tick() {
+
+    scoreCount++;
+
+    if (scoreCount == 10000) {
+
+      hud.setLevel(hud.getLevel() + 1);
     }
 
-    public void tick() {
-
-        scoreCount++;
-
-        if (scoreCount >= 1000) {
-
-            scoreCount = 0;
-            hud.setLevel(hud.getLevel() + 1);
-
-        }
-
-        if (hud.HEALTH == 0) {
-
-        }
-
-    }
+  }
 
 }

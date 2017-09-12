@@ -10,83 +10,84 @@ import java.awt.*;
 
 public abstract class GameObject {
 
-    protected int x, y;
-    protected ID id;
-    protected int spdX, spdY;
+  protected float x, y;
+  protected ID id;
+  protected float spdX;
+  protected float spdY;
 
-    public GameObject(int x, int y, ID id) {
+  public GameObject(float x, float y, ID id) {
 
-        this.x = x;
-        this.y = y;
-        this.id = id;
+    this.x = x;
+    this.y = y;
+    this.id = id;
 
-    }
+  }
 
-    public abstract void tick();
+  public abstract void tick();
 
-    public abstract void render(Graphics graphics);
+  public abstract void render(Graphics graphics);
 
-    public abstract Rectangle getBounds();
+  public abstract Rectangle getBounds();
 
 
-    public void setX(int x) {
+  public void setX(float x) {
 
-        this.x = x;
+    this.x = x;
 
-    }
+  }
 
-    public void setY(int y) {
+  public void setY(float y) {
 
-        this.y = y;
+    this.y = y;
 
-    }
+  }
 
-    public float getX() {
+  public float getX() {
 
-        return x;
+    return x;
 
-    }
+  }
 
-    public float getY() {
+  public float getY() {
 
-        return y;
+    return y;
 
-    }
+  }
 
-    public void setId(ID id) {
+  public void setId(ID id) {
 
-        this.id = id;
+    this.id = id;
 
-    }
+  }
 
-    public ID getId() {
+  public ID getId() {
 
-        return id;
+    return id;
 
-    }
+  }
 
-    public void setSpdX(int spdX) {
+  public void setSpdX(float spdX) {
 
-        this.spdX = spdX;
+    this.spdX = spdX;
 
-    }
+  }
 
-    public void setSpdY(int spdY) {
+  public void setSpdY(float spdY) {
 
-        this.spdY = spdY;
+    this.spdY = spdY;
 
-    }
+  }
 
-    public float getSpdX() {
+  public float getSpdX() {
 
-        return spdX;
+    return spdX;
 
-    }
+  }
 
-    public float getSpdY() {
+  public float getSpdY() {
 
-        return spdY;
+    return spdY;
 
-    }
+  }
 
 }

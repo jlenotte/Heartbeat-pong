@@ -2,8 +2,8 @@ package heartbeat.pong;
 
 public enum ID {
 
-    Player(),
-    Trail(),
-    Ball(),
-    Enemy();
+  Player(),
+  Trail(),
+  Ball(),
+  Enemy();
 }
