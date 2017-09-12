@@ -17,6 +17,7 @@ public class Handler {
 
         for (int i = 0; i < object.size(); i++) {
 
+            assert (object.size() > 0);
             GameObject tempObject = object.get(i);
             tempObject.tick();
 

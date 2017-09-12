@@ -63,12 +63,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/logback.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../WaveGame/src/Game/FastEnemy.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../WaveGame/src/Game/SmartEnemy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Woodpecker/src/test/java/processors/PpPaCatTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../padda/padda-processors/src/test/java/com/ovh/bird/padda/processors/ConversionTest.java">
           <value>
             <set />
           </value>

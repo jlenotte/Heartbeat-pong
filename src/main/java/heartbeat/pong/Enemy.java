@@ -3,11 +3,14 @@ package heartbeat.pong;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Enemy extends GameObject {
 
     private Handler handler;
     private GameObject ball;
+    private static final Logger LOG = LoggerFactory.getLogger(Enemy.class);
 
     public Enemy(int x, int y, ID id, Handler handler) {
 
@@ -30,6 +33,14 @@ public class Enemy extends GameObject {
     }
 
     public void tick() {
+
+        if (ball == null) {
+            LOG.error("An error occured, {} cannot be null.", ball);
+        }
+
+        assert(x != 0);
+        assert(y != 0);
+
         x += spdX;
         y += spdY;
 
@@ -38,8 +49,8 @@ public class Enemy extends GameObject {
         float distance = (float) Math
             .sqrt((x - ball.getX()) * (x - ball.getX()) + (y - ball.getY()) * (y - ball.getY()));
 
-        spdX = (float) ((-0.3 / distance) * diffX);
-        spdY = (float) ((-0.3 / distance) * diffY);
+        spdX = (int) ((-0.3 / distance) * diffX);
+        spdY = (int) ((-0.3 / distance) * diffY);
 
         if (y <= 0 || y >= Game.HEIGHT - 68) {
             spdY *= -1;

@@ -38,7 +38,7 @@ public class Game extends Canvas implements Runnable {
         handler.addObject(new Enemy(1450, 450, ID.Enemy, handler));
 
         handler.addObject(
-            new Ball(WIDTH / 2 - 18, HEIGHT / 2 - 18, ID.Ball, handler));
+            new Ball(rndm.nextInt(WIDTH), rndm.nextInt(HEIGHT), ID.Ball, handler));
     }
 
     public synchronized void start() {
@@ -161,7 +161,7 @@ public class Game extends Canvas implements Runnable {
 //
 //    }
 
-    public static float playerCollision(float var, float min, float max) {
+    public static int playerCollision(int var, int min, int max) {
 
         if (var >= max) {
 

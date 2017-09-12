@@ -14,8 +14,8 @@ public class Ball extends GameObject {
 
         this.handler = handler;
 
-        spdX = (float) 0.7;
-        spdY = (float) 0.7;
+        spdX = (int) 0.7;
+        spdY = (int) 0.7;
 
 
     }

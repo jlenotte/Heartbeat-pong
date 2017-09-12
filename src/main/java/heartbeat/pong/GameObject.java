@@ -10,11 +10,11 @@ import java.awt.*;
 
 public abstract class GameObject {
 
-    protected float x, y;
+    protected int x, y;
     protected ID id;
-    protected float spdX, spdY;
+    protected int spdX, spdY;
 
-    public GameObject(float x, float y, ID id) {
+    public GameObject(int x, int y, ID id) {
 
         this.x = x;
         this.y = y;

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e1d3228-6b33-4f12-920b-a6e5c773735a" name="Default" comment="" />
+    <list default="true" id="1e1d3228-6b33-4f12-920b-a6e5c773735a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/logback.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Enemy.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Heartbeat.iml" afterPath="$PROJECT_DIR$/Heartbeat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +32,8 @@
       <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,6 +56,9 @@
       <find>player</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -51,18 +67,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Window.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Spawn.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Trail.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/ID.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/KeyInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/HUD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" />
       </list>
     </option>
   </component>
@@ -80,8 +97,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="30" />
+    <option name="x" value="-1" />
+    <option name="y" value="22" />
     <option name="width" value="1922" />
     <option name="height" value="1059" />
   </component>
@@ -100,63 +117,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Heartbeat-pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heartbeat-pong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Heartbeat-pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heartbeat-pong" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Heartbeat-pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heartbeat-pong" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Heartbeat-pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heartbeat-pong" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Heartbeat-pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heartbeat-pong" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pong" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Heartbeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Heartbeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WaveGame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,39 +315,39 @@
     <option name="totallyTimeSpent" value="15306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="22" width="1922" height="1059" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32408324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3247012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39742318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -377,7 +393,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java</url>
-          <line>31</line>
+          <line>34</line>
           <properties class="heartbeat.pong.Enemy" method="tick">
             <option name="EMULATED" value="true" />
           </properties>
@@ -389,12 +405,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1504567873289" expanded="true" signature="89:582" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,11 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <marker date="1504733724799" expanded="false" signature="32:65" ph="..." />
-            <marker date="1504733724799" expanded="true" signature="67:109" ph="/**...*/" />
-            <marker date="1504733724799" expanded="true" signature="286:741" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,13 +435,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <marker date="1504733724979" expanded="false" signature="32:90" ph="..." />
-            <marker date="1504733724979" expanded="true" signature="92:134" ph="/**...*/" />
-            <marker date="1504733724979" expanded="true" signature="294:335" ph="{...}" />
-            <marker date="1504733724979" expanded="true" signature="383:920" ph="{...}" />
-            <marker date="1504733724979" expanded="true" signature="969:1649" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,17 +443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <marker date="1504733724658" expanded="true" signature="46:88" ph="/**...*/" />
-            <marker date="1504733724658" expanded="true" signature="224:351" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="395:862" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="398:482" ph="//..." />
-            <marker date="1504733724658" expanded="true" signature="897:932" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="960:991" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="1029:1066" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="1094:1125" ph="{...}" />
-            <marker date="1504733724658" expanded="true" signature="1163:1200" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,14 +451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
           <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <marker date="1504733724755" expanded="true" signature="45:87" ph="/**...*/" />
-            <marker date="1504733724755" expanded="true" signature="409:615" ph="{...}" />
-            <marker date="1504733724755" expanded="true" signature="640:794" ph="{...}" />
-            <marker date="1504733724755" expanded="true" signature="838:1088" ph="{...}" />
-            <marker date="1504733724755" expanded="true" signature="1146:1255" ph="{...}" />
-            <marker date="1504733724755" expanded="true" signature="1290:1320" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,87 +459,143 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <marker date="1504733724871" expanded="true" signature="51:93" ph="/**...*/" />
-            <marker date="1504733724871" expanded="true" signature="283:348" ph="{...}" />
-            <marker date="1504733724871" expanded="true" signature="373:568" ph="{...}" />
+            <marker date="1505222421916" expanded="true" signature="89:725" ph="..." />
+            <marker date="1505222421916" expanded="true" signature="416:712" ph="..." />
+            <marker date="1505222421916" expanded="true" signature="433:551" ph="..." />
+            <marker date="1505222421916" expanded="true" signature="568:694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <marker date="1505222562232" expanded="true" signature="53:739" ph="..." />
+            <marker date="1505222562232" expanded="true" signature="170:399" ph="..." />
+            <marker date="1505222562232" expanded="true" signature="292:385" ph="..." />
+            <marker date="1505222562232" expanded="true" signature="474:519" ph="..." />
+            <marker date="1505222562232" expanded="true" signature="679:722" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1505227813253" expanded="true" signature="45:87" ph="/**...*/" />
+            <marker date="1505227813253" expanded="true" signature="342:413" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="575:604" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="634:663" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="689:716" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="742:769" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="800:831" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="855:883" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="919:954" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="990:1025" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="1054:1084" ph="{...}" />
+            <marker date="1505227813253" expanded="true" signature="1113:1143" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="192">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <marker date="1504826325950" expanded="true" signature="32:100" ph="..." />
-            <marker date="1504826325950" expanded="true" signature="226:351" ph="{...}" />
-            <marker date="1504826325950" expanded="true" signature="386:451" ph="{...}" />
-            <marker date="1504826325950" expanded="true" signature="458:524" ph="/**...*/" />
-            <marker date="1504826325950" expanded="true" signature="548:777" ph="{...}" />
-            <marker date="1504826325950" expanded="true" signature="807:1280" ph="{...}" />
-            <marker date="1504826325950" expanded="true" signature="1324:1426" ph="{...}" />
+            <marker date="1505227840661" expanded="false" signature="32:100" ph="..." />
+            <marker date="1505227840661" expanded="true" signature="226:347" ph="{...}" />
+            <marker date="1505227840661" expanded="true" signature="382:447" ph="{...}" />
+            <marker date="1505227840661" expanded="true" signature="454:520" ph="/**...*/" />
+            <marker date="1505227840661" expanded="true" signature="544:773" ph="{...}" />
+            <marker date="1505227840661" expanded="true" signature="803:1276" ph="{...}" />
+            <marker date="1505227840661" expanded="true" signature="1320:1422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <marker date="1505221552484" expanded="false" signature="32:68" ph="..." />
+            <marker date="1505221552484" expanded="true" signature="70:112" ph="/**...*/" />
+            <marker date="1505221552484" expanded="true" signature="266:332" ph="{...}" />
+            <marker date="1505221552484" expanded="true" signature="367:432" ph="{...}" />
+            <marker date="1505221552484" expanded="true" signature="457:642" ph="{...}" />
+            <marker date="1505221552484" expanded="true" signature="673:1375" ph="{...}" />
+            <marker date="1505221552484" expanded="true" signature="1419:1647" ph="{...}" />
+            <marker date="1505221552484" expanded="true" signature="1422:1546" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="227">
           <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <marker date="1504733725046" expanded="true" signature="32:106" ph="..." />
-            <marker date="1504733725046" expanded="true" signature="108:150" ph="/**...*/" />
-            <marker date="1504733725046" expanded="true" signature="534:1154" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="1193:1285" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="1323:1433" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="1457:2296" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="2322:2399" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="2427:2927" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="2929:3247" ph="//..." />
-            <marker date="1504733725046" expanded="true" signature="3322:3525" ph="{...}" />
-            <marker date="1504733725046" expanded="true" signature="3570:3599" ph="{...}" />
+            <marker date="1505229564680" expanded="false" signature="32:106" ph="..." />
+            <marker date="1505229564680" expanded="true" signature="108:150" ph="/**...*/" />
+            <marker date="1505229564680" expanded="true" signature="534:1164" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="1203:1295" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="1333:1443" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="1467:2306" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="2332:2409" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="2437:2937" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="2939:3257" ph="//..." />
+            <marker date="1505229564680" expanded="true" signature="3324:3527" ph="{...}" />
+            <marker date="1505229564680" expanded="true" signature="3572:3601" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1504733725011" expanded="true" signature="32:72" ph="..." />
-            <marker date="1504733725011" expanded="true" signature="74:116" ph="/**...*/" />
-            <marker date="1504733725011" expanded="false" signature="245:257" ph="&lt;~&gt;" />
-            <marker date="1504733725011" expanded="true" signature="285:438" ph="{...}" />
-            <marker date="1504733725011" expanded="true" signature="482:645" ph="{...}" />
-            <marker date="1504733725011" expanded="true" signature="692:734" ph="{...}" />
-            <marker date="1504733725011" expanded="true" signature="784:829" ph="{...}" />
-            <marker date="1504733725011" expanded="true" signature="862:1322" ph="{...}" />
+            <marker date="1505222758089" expanded="false" signature="32:72" ph="..." />
+            <marker date="1505222758089" expanded="true" signature="74:116" ph="/**...*/" />
+            <marker date="1505222758089" expanded="false" signature="245:257" ph="&lt;~&gt;" />
+            <marker date="1505222758089" expanded="true" signature="285:478" ph="{...}" />
+            <marker date="1505222758089" expanded="true" signature="522:685" ph="{...}" />
+            <marker date="1505222758089" expanded="true" signature="732:774" ph="{...}" />
+            <marker date="1505222758089" expanded="true" signature="824:869" ph="{...}" />
+            <marker date="1505222758089" expanded="true" signature="902:1362" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,6 +659,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -633,6 +679,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: log4j:log4j:1.2.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
