@@ -14,15 +14,15 @@ public class Ball extends GameObject {
 
         this.handler = handler;
 
-        spdX = (int) 0.7;
-        spdY = (int) 0.7;
+        spdX = 1;
+        spdY = 1;
 
 
     }
 
     public Rectangle getBounds() {
 
-        return new Rectangle((int) x, (int) y, 18, 18);
+        return new Rectangle(x, y, 18, 18);
 
     }
 
@@ -31,6 +31,7 @@ public class Ball extends GameObject {
      * Makes the ball rebound when hitting the borders
      */
     public void tick() {
+
         y += spdY;
         x += spdX;
 

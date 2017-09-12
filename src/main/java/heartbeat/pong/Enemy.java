@@ -44,8 +44,8 @@ public class Enemy extends GameObject {
         x += spdX;
         y += spdY;
 
-        float diffX = x - ball.getX() - 9;
-        float diffY = y - ball.getY() - 9;
+        int diffX = (int) (x - ball.getX() - 9);
+        int diffY = (int) (y - ball.getY() - 9);
         float distance = (float) Math
             .sqrt((x - ball.getX()) * (x - ball.getX()) + (y - ball.getY()) * (y - ball.getY()));
 

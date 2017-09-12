@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e1d3228-6b33-4f12-920b-a6e5c773735a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/logback.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Enemy.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Ball.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/Ball.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Enemy.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/Enemy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Game.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/GameObject.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/GameObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/HUD.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/HUD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Player.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/heartbeat/pong/Trail.class" afterPath="$PROJECT_DIR$/target/classes/heartbeat/pong/Trail.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Heartbeat.iml" afterPath="$PROJECT_DIR$/Heartbeat.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/logback.xml" afterPath="$PROJECT_DIR$/src/main/java/logback.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,12 +75,12 @@
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/KeyInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/HUD.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logback.xml" />
       </list>
     </option>
   </component>
@@ -168,6 +169,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,6 +311,14 @@
       <updated>1504508857747</updated>
       <workItem from="1504508864201" duration="15306000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed a few things">
+      <created>1505229897309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505229897309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -325,7 +335,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32408324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32408324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -339,7 +349,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39742318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39742318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -387,6 +397,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed a few things" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a few things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,57 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <marker date="1505222562232" expanded="true" signature="53:739" ph="..." />
-            <marker date="1505222562232" expanded="true" signature="170:399" ph="..." />
-            <marker date="1505222562232" expanded="true" signature="292:385" ph="..." />
-            <marker date="1505222562232" expanded="true" signature="474:519" ph="..." />
-            <marker date="1505222562232" expanded="true" signature="679:722" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <marker date="1505227813253" expanded="true" signature="45:87" ph="/**...*/" />
-            <marker date="1505227813253" expanded="true" signature="342:413" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="575:604" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="634:663" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="689:716" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="742:769" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="800:831" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="855:883" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="919:954" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="990:1025" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="1054:1084" ph="{...}" />
-            <marker date="1505227813253" expanded="true" signature="1113:1143" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <marker date="1505227840661" expanded="false" signature="32:100" ph="..." />
-            <marker date="1505227840661" expanded="true" signature="226:347" ph="{...}" />
-            <marker date="1505227840661" expanded="true" signature="382:447" ph="{...}" />
-            <marker date="1505227840661" expanded="true" signature="454:520" ph="/**...*/" />
-            <marker date="1505227840661" expanded="true" signature="544:773" ph="{...}" />
-            <marker date="1505227840661" expanded="true" signature="803:1276" ph="{...}" />
-            <marker date="1505227840661" expanded="true" signature="1320:1422" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -555,47 +518,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
-            <marker date="1505229564680" expanded="false" signature="32:106" ph="..." />
-            <marker date="1505229564680" expanded="true" signature="108:150" ph="/**...*/" />
-            <marker date="1505229564680" expanded="true" signature="534:1164" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="1203:1295" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="1333:1443" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="1467:2306" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="2332:2409" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="2437:2937" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="2939:3257" ph="//..." />
-            <marker date="1505229564680" expanded="true" signature="3324:3527" ph="{...}" />
-            <marker date="1505229564680" expanded="true" signature="3572:3601" ph="{...}" />
+            <marker date="1505230977942" expanded="false" signature="32:100" ph="..." />
+            <marker date="1505230977942" expanded="true" signature="226:331" ph="{...}" />
+            <marker date="1505230977942" expanded="true" signature="366:419" ph="{...}" />
+            <marker date="1505230977942" expanded="true" signature="426:492" ph="/**...*/" />
+            <marker date="1505230977942" expanded="true" signature="516:746" ph="{...}" />
+            <marker date="1505230977942" expanded="true" signature="776:1249" ph="{...}" />
+            <marker date="1505230977942" expanded="true" signature="1293:1395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1505231261507" expanded="true" signature="45:87" ph="/**...*/" />
+            <marker date="1505231261507" expanded="true" signature="342:413" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="575:604" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="634:663" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="689:716" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="742:769" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="800:831" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="855:883" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="919:954" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="990:1025" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="1054:1084" ph="{...}" />
+            <marker date="1505231261507" expanded="true" signature="1113:1143" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <marker date="1505222758089" expanded="false" signature="32:72" ph="..." />
-            <marker date="1505222758089" expanded="true" signature="74:116" ph="/**...*/" />
-            <marker date="1505222758089" expanded="false" signature="245:257" ph="&lt;~&gt;" />
-            <marker date="1505222758089" expanded="true" signature="285:478" ph="{...}" />
-            <marker date="1505222758089" expanded="true" signature="522:685" ph="{...}" />
-            <marker date="1505222758089" expanded="true" signature="732:774" ph="{...}" />
-            <marker date="1505222758089" expanded="true" signature="824:869" ph="{...}" />
-            <marker date="1505222758089" expanded="true" signature="902:1362" ph="{...}" />
+            <marker date="1505231293591" expanded="false" signature="32:72" ph="..." />
+            <marker date="1505231293591" expanded="true" signature="74:116" ph="/**...*/" />
+            <marker date="1505231293591" expanded="true" signature="245:257" ph="&lt;~&gt;" />
+            <marker date="1505231293591" expanded="true" signature="285:438" ph="{...}" />
+            <marker date="1505231293591" expanded="true" signature="482:645" ph="{...}" />
+            <marker date="1505231293591" expanded="true" signature="692:734" ph="{...}" />
+            <marker date="1505231293591" expanded="true" signature="784:829" ph="{...}" />
+            <marker date="1505231293591" expanded="true" signature="862:1322" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="163" column="59" lean-forward="false" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
+          <folding>
+            <marker date="1505231302883" expanded="false" signature="32:106" ph="..." />
+            <marker date="1505231302883" expanded="true" signature="108:150" ph="/**...*/" />
+            <marker date="1505231302883" expanded="true" signature="534:1164" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="1203:1295" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="1333:1443" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="1467:2306" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="2332:2409" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="2437:2937" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="2939:3257" ph="//..." />
+            <marker date="1505231302883" expanded="true" signature="3324:3527" ph="{...}" />
+            <marker date="1505231302883" expanded="true" signature="3572:3601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <marker date="1505231399727" expanded="true" signature="53:749" ph="..." />
+            <marker date="1505231399727" expanded="true" signature="170:399" ph="..." />
+            <marker date="1505231399727" expanded="true" signature="292:385" ph="..." />
+            <marker date="1505231399727" expanded="true" signature="484:529" ph="..." />
+            <marker date="1505231399727" expanded="true" signature="689:732" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heartbeat/pong/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

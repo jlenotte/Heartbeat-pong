@@ -9,7 +9,7 @@
     </encoder>
   </appender>
 
-  <logger name="com.jlenotte.heartbeat" level="DEBUG" additivity="false">
+  <logger name="com.jlenotte.heartbeat.pong.Game" level="DEBUG" additivity="false">
     <appender-ref ref="STDOUT"/>
   </logger>
 
