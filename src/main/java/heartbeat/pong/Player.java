@@ -31,7 +31,7 @@ public class Player extends GameObject {
     y += spdY;
 
     x = Game.playerCollision((int) x, 0, Game.WIDTH - 47);
-    y = Game.playerCollision((int) y, 0, Game.HEIGHT - 57);
+    y = Game.playerCollision((int) y, 0, Game.HEIGHT - 96);
 
     collision();
 
@@ -57,6 +57,7 @@ public class Player extends GameObject {
           if (x <= 0 || x >= Game.WIDTH - 16) {
             spdX *= -1;
           }
+
         }
 
       }

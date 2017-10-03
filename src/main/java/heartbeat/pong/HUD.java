@@ -9,50 +9,48 @@ import java.awt.*;
 
 public class HUD {
 
-  private int level = 1;
-  private int score = 0;
+  public static int score1 = 0;
+  public static int score2 = 0;
 
   public void tick() {
-
-    score++;
-
+    
   }
 
   public void render(Graphics graphics) {
 
-    graphics.fillRect(800, 0, 5, 900);
+    graphics.fillRect(960, 0, 2, 1080);
     graphics.drawString("PLAYER", 400, 20);
     graphics.drawString("ENEMY", 1200, 20);
-    graphics.drawString("Level : " + level, 20, 50);
-    graphics.drawString("Score : " + score, 20, 80);
+    graphics.drawString("SCORE : " + score1, 300, 20);
+    graphics.drawString("SCORE : " + score2, 1300, 20);
 
   }
 
   public void score(int score) {
-    this.score = score;
+    this.score2 = score;
   }
 
-  public int getLevel() {
+  public int getScore1() {
 
-    return level;
-
-  }
-
-  public void setLevel(int level) {
-
-    this.level = level;
+    return score1;
 
   }
 
-  public int getScore() {
+  public void setScore1(int score1) {
 
-    return score;
+    this.score1 = score1;
 
   }
 
-  public void setScore(int score) {
+  public int getScore2() {
 
-    this.score = score;
+    return score2;
+
+  }
+
+  public void setScore2(int score2) {
+
+    this.score2 = score2;
 
   }
 }

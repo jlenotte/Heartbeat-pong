@@ -37,12 +37,12 @@ public class Enemy extends GameObject {
     x += spdX;
     y += spdY;
 
-    float diffY = y - ball.getY() - 34;
+    float diffY = y - ball.getY() - 9;
     float distance = (float) Math.sqrt((y - ball.getY()) * (y - ball.getY()));
-
+    y = Game.playerCollision((int) y, 0, Game.HEIGHT - 100);
     spdY = ((-1 / distance) * diffY);
 
-    if (y <= 0 || y > Game.HEIGHT - 96) {
+    if (y <= 0 || y > Game.HEIGHT - 68) {
       spdY *= -1;
     }
     LOG.debug(String.valueOf(spdY));

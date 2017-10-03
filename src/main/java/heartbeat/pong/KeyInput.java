@@ -28,7 +28,7 @@ public class KeyInput extends KeyAdapter {
       if (tempObject.getId() == ID.Player) {
 
         if (key == KeyEvent.VK_Z) {
-          tempObject.setSpdY(-1);
+          tempObject.setSpdY((float) -1);
           keyDown[0] = true;
         }
         if (key == KeyEvent.VK_S) {

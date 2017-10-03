@@ -12,7 +12,7 @@ public class Game extends Canvas implements Runnable {
 
   private static final long serialVersionUID = 1550691097823471818L;
 
-  public static final int WIDTH = 1600, HEIGHT = WIDTH / 16 * 9;
+  public static final int WIDTH = 1920, HEIGHT = WIDTH / 16 * 9;
   private Thread thread;
   private boolean running = false;
 
@@ -34,9 +34,11 @@ public class Game extends Canvas implements Runnable {
     spawner = new Spawn(handler, hud);
     rndm = new Random();
 
+    handler.addObject(new Boundary(0,0, ID.BoundaryP, handler));
+    handler.addObject(new Boundary(1910,0, ID.BoundaryE, handler));
     handler.addObject(new Ball(rndm.nextInt(WIDTH), rndm.nextInt(HEIGHT), ID.Ball, handler));
     handler.addObject(new Player(150, 450, ID.Player, handler));
-    handler.addObject(new Enemy(1450, 200, ID.Enemy, handler));
+    handler.addObject(new Enemy(1752, 200, ID.Enemy, handler));
 
   }
 

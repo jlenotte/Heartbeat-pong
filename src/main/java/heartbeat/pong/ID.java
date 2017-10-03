@@ -5,5 +5,7 @@ public enum ID {
   Player(),
   Trail(),
   Ball(),
+  BoundaryP(),
+  BoundaryE(),
   Enemy();
 }

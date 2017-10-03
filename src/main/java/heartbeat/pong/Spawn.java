@@ -8,11 +8,12 @@ import java.util.Random;
 
 public class Spawn {
 
+  public static int score;
   private Handler handler;
   private HUD hud;
   private Random rndm = new Random();
   private GameObject ball;
-  private int scoreCount = 0;
+  public static int scoreCount = 0;
 
   public Spawn(Handler handler, HUD hud) {
 
@@ -23,12 +24,6 @@ public class Spawn {
 
   public void tick() {
 
-    scoreCount++;
-
-    if (scoreCount == 10000) {
-
-      hud.setLevel(hud.getLevel() + 1);
-    }
 
   }
 

@@ -9,13 +9,13 @@
     </encoder>
   </appender>
 
-  <logger name="com.jlenotte.heartbeat.pong.Game" level="DEBUG" additivity="false">
+  <logger name="com.jlenotte.heartbeat.pong.Game" score1="DEBUG" additivity="false">
     <appender-ref ref="STDOUT"/>
   </logger>
 
-  <!-- By default, the level of the root level is set to DEBUG -->
-  <!-- Looks at arborescence and takes the root level by default -->
-  <root level="DEBUG">
+  <!-- By default, the score1 of the root score1 is set to DEBUG -->
+  <!-- Looks at arborescence and takes the root score1 by default -->
+  <root score1="DEBUG">
     <appender-ref ref="STDOUT"/>
   </root>
 </configuration>
